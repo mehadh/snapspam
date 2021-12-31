@@ -11,6 +11,7 @@ var processes = {}
 counter = 0
 origLength = 0
 twilbal = "$0 USD."
+myUser = "none"
 
 
 
