@@ -119,7 +119,7 @@ function processStarter() {
 
         processes[counter].on('close', () => exitHandler())
         processes[counter].on('error', () => exitHandler())
-        process.title = `SnapSpam - t.me/mehadtools - Doing/done: ${origLength - toCheck.length} Todo: ${toCheck.length}/${origLength}`
+        process.title = `SnapSpam by Mehad - Doing/done: ${origLength - toCheck.length} Todo: ${toCheck.length}/${origLength}`
     }
 
 }
